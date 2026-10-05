@@ -8,7 +8,7 @@ app.use(express.static('public'));
 const pool = new pg.Pool({
     user: "postgres",
     host: "localhost",
-    database: "projeto1",
+    database: "iot",
     password: "senai",
     port: 5432
 });
